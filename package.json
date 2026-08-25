@@ -1,0 +1,18 @@
+{
+  "name": "hans-signature-fabrics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An E-commerce website that sells ankara Fabrics",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "4.1.11",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
+  }
+}
